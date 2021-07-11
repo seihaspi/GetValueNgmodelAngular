@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GetvalueAngular';
+  // submit(form:any){
+  //   console.log(form);
+  // }
+
+  user:any={
+    email:"",
+    password:""
+  };
+  login(){
+    console.log(this.user);
+  }
+
 }
+
+
